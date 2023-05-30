@@ -21,3 +21,4 @@ except TypeError as e:
 assert has_raised
 
 assert is_odd(3)
+assert is_odd(2) is False
